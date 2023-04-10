@@ -7,8 +7,7 @@
     <test name="Regression">
         <classes>
             
-            <class name="com/icehrm_automation/loginpage/LoginTest4"/>
-            <class name="com/icehrm_automation/loginpage/ExcelTest"/>
+            <class name="com/icehrm_automation/loginpage/LoginTest2"/>
         </classes>
     </test>
 </suite>

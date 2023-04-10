@@ -18,6 +18,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 	import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ISuite;
 	public class BaseClass1 {
 	   public WebDriver driver;
 	   public void luanchBrowser(String browser) {   
@@ -104,6 +105,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 	               e.printStackTrace();
 	           }
 	       }
+
+		
 	}
 //	       public ChromeOptions setChromeOptions() {
 //	           ChromeOptions option = new ChromeOptions();
